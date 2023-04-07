@@ -1,0 +1,328 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+#top-page{
+    background-image: url(virat.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    height: 800px;
+    opacity: 0.8;
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+    text-decoration:dashed;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  #text a{
+      color: white;
+      text-decoration: none;
+  }
+  #text a:hover{
+      text-shadow: 0 0 5px #fff,
+                  0 0 10px #fff,
+                  0 0 20px white,
+                  0 0 30px whitesmoke,
+                  0 0 40px white,
+                  0 0 50px whitesmoke;
+  }
+  .menu {
+    background-color :black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+  }
+  
+  #myMenu {
+    position: fixed;
+    top: 30px;
+    right:30px;
+  }
+  .menu:hover{
+    background-color:#46b8da;
+    box-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px white,
+    0 0 30px whitesmoke,
+    0 0 40px white,
+    0 0 50px whitesmoke;
+  }
+  .projects-1{
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .projects-2{
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .projects-3{
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  @media only screen and (max-width:768px) {
+  .projects-1{
+    left: 30%;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+  }
+  .projects-2{
+    left: 30%;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+  }
+  .projects-3{
+    left: 30%;
+    width: 100%;
+    height: 400px;
+    background-color:white;
+  }
+
+  }
+  #one,#two,#three{
+    background-color: rgb(94, 91, 91) ; 
+    border-radius: 10px;
+    color: white;
+    border: 1px solid black;
+  }
+  #one:hover,#two:hover,#three:hover{
+    background-color:  white;
+    box-shadow: 2px 3px 4px black;
+    color: black;
+  }
+  #image1{
+    height: 266px;
+    width: 100%;
+    opacity: 0.8;
+  }
+#projects{
+    font-size: 50px;;
+}
+
+#projects:hover{
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+/**   About section   **/
+
+    #about-container{
+        height: 750px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: rgb(72, 217, 81);
+    }
+
+
+
+    #about-1,#about-2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      #about-1{
+        width: 30%;
+        height: 500px;
+        float: left;
+        background-color: white;
+      }
+      #about-2{
+        width: 70%;
+        height: 500px;
+        float: left;
+        background-color: white;
+      }
+      #about-1 img{
+        height: 400px;
+        width: 90%;
+      }
+      @media only screen and (max-width:768px) {
+      #about-1{
+        left: 30%;
+        width: 100%;
+        height: 300px;
+        background-color:white;
+      }
+      #about-2{
+        left: 30%;
+        width: 100%;
+        height: 600px;
+        background-color: white;
+      }
+      #about-1 img{
+        height: 90%;
+        width: 90%;
+      }
+      }
+
+#img2:hover{
+    box-shadow: 2px 4px 6px  black;
+}
+#x{
+    font-size: 20px;
+    color:red;
+    font-family: sans-serif;
+}
+#x:hover{
+    font-size: 30px;
+    color: orangered;
+}
+#normal,#technical{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  #normal{
+    width: 50%;
+    height: 500px;
+    float: left;
+    /*background-color: rgb(208, 204, 204);*/
+  }
+  #technical{
+    width: 50%;
+    height: 500px;
+    float: left;
+   /* background-color: rgb(214, 214, 202);*/
+  }
+  @media only screen and (max-width:768px) {
+  #normal{
+    left: 30%;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(208, 204, 204);
+  }
+  #technical{
+    left: 30%;
+    width: 100%;
+    height: 400px;
+    background-color:rgb(214, 214, 202);
+  }
+  }
+
+  #normal table:hover,#technical table:hover{
+    width: 85%;
+    height:350px ;
+    box-shadow: 2px 4px 6px black;
+  }
+#hey{
+ font-size: 40px;
+ font-family: sans-serif;   
+}
+/*Contact*/
+#contact{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+#a,#b,#c{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  #a{
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    background-color: white;
+  }
+  #b{
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    background-color: white;
+  }
+  #c{
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    background-color: white;
+  }
+  @media only screen and (max-width:768px) {
+  #a{
+    left: 30%;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+  }
+  #b{
+    left: 30%;
+    width: 100%;
+    height: 400px;
+    background-color:white;
+  }
+  #c{
+    width: 100%;
+    height: 400px;
+    left: 30%;
+    background-color: white;
+  }
+  }
+  #contact img{
+    border-radius: 50%;
+    height: 25%px;
+    width: 25%;
+  }
+  #contact img:hover{
+    height: 70%;
+    width: 40%;
+  }
+  #contact p{
+    font-family: sans-serif;
+    font-size: 10px;
+  }

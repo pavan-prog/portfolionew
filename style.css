@@ -313,16 +313,70 @@ img {
     background-color: white;
   }
   }
-  #contact img{
+  #imgContact{
     border-radius: 50%;
     height: 25%px;
     width: 25%;
   }
-  #contact img:hover{
+  #imgContact:hover{
     height: 70%;
     width: 40%;
   }
   #contact p{
     font-family: sans-serif;
     font-size: 10px;
+  }
+#mailme{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(169, 156, 156);
+}
+
+  
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  
+    box-shadow: 2px 4px 5px white;
+  }
+  
+  .bunti {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .bunti:hover{
+    border-radius: 5px;
+    background-color: #5d5b5b;
+    color: white;
+    padding: 20px;
+  }
+  #footer{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 100%;
+  }
+  #footer img{
+    width: 40px;
+    height: 40px;
   }

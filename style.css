@@ -111,7 +111,7 @@ img {
     align-items: center;
     display: flex;
   }
-  @media only screen and (max-width:900px) {
+  @media only screen and (max-width:480px) {
   .projects-1{
     left: 30%;
     width: 100%;
@@ -191,7 +191,7 @@ img {
         height: 400px;
         width: 90%;
       }
-      @media only screen and (max-width:768px) {
+      @media only screen and (max-width:480px) {
       #about-1{
         left: 30%;
         width: 100%;
@@ -239,7 +239,7 @@ img {
     float: left;
    /* background-color: rgb(214, 214, 202);*/
   }
-  @media only screen and (max-width:768px) {
+  @media only screen and (max-width:480px) {
   #normal{
     left: 30%;
     width: 100%;
@@ -293,7 +293,7 @@ img {
     float: left;
     background-color: white;
   }
-  @media only screen and (max-width:768px) {
+  @media only screen and (max-width:480px) {
   #a{
     left: 30%;
     width: 100%;

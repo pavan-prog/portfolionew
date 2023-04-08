@@ -4,15 +4,99 @@ html{
     margin: 0;
 }
 #top-page{
+  background-color: black;
+}
+#top-page{
+  top: 0;
     background-image: url(virat.webp);
-    background-color: black;
+/*    background-color: black;      */
     background-repeat: no-repeat;
     background-position: center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: cover;
     height: 800px;
     opacity: 0.8;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXtra part
+*/
+.voverlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myPortfolio{
+  width: 70%;
+  height: 800px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#myPortfolio p{
+  font-size: 50px;
+  font-family: sans-serif;
+  color: white;
+}
+#myPortfolio button{
+  border: 1px solid red;
+  background-color:  red;;
+  padding: 20px;
+  color: white;
+  width: 60%;
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  box-shadow: 2px 4px 6px white;
+  border-radius: 5px;
+}
+#myPortfolio button:hover{
+  box-shadow: 2px 4px 6px white;
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1{
     font-family: "Raleway", sans-serif;
@@ -22,10 +106,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-  }
+
 
 #overlay {
     position: fixed;
@@ -111,7 +192,7 @@ img {
     align-items: center;
     display: flex;
   }
-  @media only screen and (max-width:480px) {
+  @media only screen and (max-width:768px) {
   .projects-1{
     left: 30%;
     width: 100%;
@@ -146,8 +227,9 @@ img {
   #image1{
     height: 266px;
     width: 100%;
-    opacity: 0.8;
-  }
+    opacity: 1;
+}
+
 #projects{
     font-size: 50px;;
 }
@@ -188,10 +270,10 @@ img {
         background-color: white;
       }
       #about-1 img{
-        height: 400px;
+        height: 350px;
         width: 90%;
       }
-      @media only screen and (max-width:480px) {
+      @media only screen and (max-width:768px) {
       #about-1{
         left: 30%;
         width: 100%;
@@ -205,7 +287,7 @@ img {
         background-color: white;
       }
       #about-1 img{
-        height: 90%;
+        height: 80%;
         width: 90%;
       }
       }
@@ -239,7 +321,7 @@ img {
     float: left;
    /* background-color: rgb(214, 214, 202);*/
   }
-  @media only screen and (max-width:480px) {
+  @media only screen and (max-width:768px) {
   #normal{
     left: 30%;
     width: 100%;
@@ -293,7 +375,7 @@ img {
     float: left;
     background-color: white;
   }
-  @media only screen and (max-width:480px) {
+  @media only screen and (max-width:768px) {
   #a{
     left: 30%;
     width: 100%;
